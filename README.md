@@ -10,3 +10,7 @@ Next: Add dynamic score cards.
 ✔ Dynamic score cards added  
 Next: Add sports news cards.
 
+### 📅 Day 3
+✔ News cards section added  
+Next: Add filtering options.
+

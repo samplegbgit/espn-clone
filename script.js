@@ -14,3 +14,18 @@ scores.forEach(s => {
     </div>
   `;
 });
+const news = [
+  { title: "India wins by 50 runs", desc: "Dominating performance in ODI series." },
+  { title: "LeBron scores 40 points", desc: "Another big night for Lakers star." }
+];
+
+const newsContainer = document.getElementById("news-container");
+
+news.forEach(n => {
+  newsContainer.innerHTML += `
+    <div class="card">
+      <h3>${n.title}</h3>
+      <p>${n.desc}</p>
+    </div>
+  `;
+});
