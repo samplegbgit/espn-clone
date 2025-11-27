@@ -29,3 +29,25 @@ news.forEach(n => {
     </div>
   `;
 });
+const filter = document.getElementById("score-filter");
+
+function loadScores(filterValue) {
+  scoreContainer.innerHTML = "";
+  scores
+    .filter(s => filterValue === "all" || s.status === filterValue)
+    .forEach(s => {
+      scoreContainer.innerHTML += `
+        <div class="card">
+          <h3>${s.team1} vs ${s.team2}</h3>
+          <p><strong>Score:</strong> ${s.score}</p>
+          <p><strong>Status:</strong> ${s.status}</p>
+        </div>
+      `;
+    });
+}
+
+loadScores("all");
+
+filter.addEventListener("change", () => {
+  loadScores(filter.value);
+});

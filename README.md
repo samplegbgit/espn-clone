@@ -14,3 +14,7 @@ Next: Add sports news cards.
 ✔ News cards section added  
 Next: Add filtering options.
 
+### 📅 Day 4
+✔ Added score filter (Live/Final)  
+Next: Dark mode + responsive design.
+
