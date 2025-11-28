@@ -18,3 +18,8 @@ Next: Add filtering options.
 ✔ Added score filter (Live/Final)  
 Next: Dark mode + responsive design.
 
+### 📅 Day 5
+✔ Dark mode added  
+✔ Responsive layout completed  
+🎯 ESPN Clone Completed!
+

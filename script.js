@@ -51,3 +51,11 @@ loadScores("all");
 filter.addEventListener("change", () => {
   loadScores(filter.value);
 });
+const modeBtn = document.createElement("button");
+modeBtn.textContent = "🌙 Dark Mode";
+modeBtn.className = "dark-btn";
+document.body.appendChild(modeBtn);
+
+modeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
